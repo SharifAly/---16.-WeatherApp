@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.9));
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  border: 1px solid black;
+  height: 60vh;
+  width: 20rem;
+  text-align: center;
+  background-image: url("bookcover-g90fa7ec2b_640.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 2px white;
+}
+
+.container-top {
+  margin-top: 1.5rem;
+}
+
+.container-center {
+  margin-top: 1.5rem;
+}
+
+.container-bottom {
+  margin-top: .5rem;
+}
+
+form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#city {
+  height: 1.8rem;
+  width: 50%;
+  border-radius: 5px;
+}
+
+#btn {
+  width: 35%;
+  padding: 0.4rem 0;
+  margin-top: 0.7rem;
+  border: none;
+  background-color: red;
+  border-radius: 15px;
+  box-shadow: 0 0 5px white;
+}
+
+h1 {
+  text-shadow: 0 0 5px black;
+}
+
+h3 {
+  text-shadow: 0 0 5px black;
+}
+
+p {
+  margin-top: 0.7rem;
+}
+
+.date {
+  margin-bottom: 1rem;
+}
