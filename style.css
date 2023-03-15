@@ -23,6 +23,7 @@ body {
   background-image: url("bookcover-g90fa7ec2b_640.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   color: white;
   border-radius: 10px;
   box-shadow: 0 0 2px white;
@@ -58,9 +59,14 @@ form {
   padding: 0.4rem 0;
   margin-top: 0.7rem;
   border: none;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.952);
   border-radius: 15px;
   box-shadow: 0 0 5px white;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
 }
 
 h1 {
@@ -77,4 +83,23 @@ p {
 
 .date {
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container-top {
+    margin-top: 5rem;
+  }
+
+  .container-center {
+    margin-top: 3rem;
+  }
+
+  p {
+    margin-top: 1.5rem;
+  }
 }

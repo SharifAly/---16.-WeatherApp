@@ -11,19 +11,21 @@
   <div class="content">
     <div class="container-top">
       <h1>Weather App</h1>
-      <form action="">
-        <input type="text" name="city" id="city">
+      <form action="" onsubmit="return false">
+        <input type="text" name="city" id="city" placeholder="Enter a Cityname" style="text-align: center;">
         <input type="submit" value="Submit" id="btn">
       </form>
+      <span class="weather-icon"></span>
+      <p class="error"></p>
       <div class="container-center">
-        <h3 class="city-name">Vienna, Au</h3>
-        <p class="date">Thursday, 36 nowv 2020</p>
+        <h3 class="city-name">Vienna, AT</h3>
+        <p class="date">Thursday, 36 nov 2020</p>
       </div>
       <hr>
       <div class="container-bottom">
-        <p class="temperature">Temp: 12C</p>
-        <p class="weather">Weather: Rain</p>
-        <p class="temp-range">Temp Range: 9C/14V</p>
+        <p class="temperature">Temp: °C</p>
+        <p class="weather">Weather: ...</p>
+        <p class="temp-range">Temp Range: °C/°C</p>
       </div>
     </div>
   </div>
